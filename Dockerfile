@@ -15,4 +15,4 @@ RUN locale-gen en_US.UTF-8
 
 # Install Ansible
 RUN apt-get install git build-essential python-dev python-pip -y
-RUN pip install pelican Markdown
+RUN pip install pelican Markdown gitpython
